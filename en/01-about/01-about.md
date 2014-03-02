@@ -9,8 +9,10 @@ The Society of Information Risk Analysts (SIRA)
 
 For more information, please contact the Society of Information Risk Analysts at:
 
->  Society of Information Risk Analysts 1023 Delaware Avenue  
+>  Society of Information Risk Analysts  
+>  1023 Delaware Avenue  
 >  Mendota Heights, MN 55118  USA  
+>    
 >  Website: [http://www.societyinforisk.org](http://www.societyinforisk.org)  
 >  Contact Form: [https://www.societyinforisk.org/contact](https://www.societyinforisk.org/contact)  
 

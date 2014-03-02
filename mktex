@@ -1,3 +1,0 @@
-pandoc -S --toc --chapters --number-sections --latex-engine=xelatex --epub-metadata=metadata.xml -o irmbok.tex title.txt \
-   en/01-about/01-about.md \
-   en/02-introduction/02-introduction.md
