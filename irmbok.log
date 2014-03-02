@@ -1,0 +1,27 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.12)  2 MAR 2014 09:46
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**irmbok.tex
+(./irmbok.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 21 languages loaded.
+! Undefined control sequence.
+l.1 \chapter
+            {About the Society of Information Risk
+? 
+! Emergency stop.
+l.1 \chapter
+            {About the Society of Information Risk
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 5 strings out of 494536
+ 122 string characters out of 6167445
+ 46958 words of memory out of 5000000
+ 3354 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 5i,0n,1p,59b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

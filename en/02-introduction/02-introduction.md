@@ -2,11 +2,13 @@
 
 ## What Is the Information Risk Management Body of Knowledge? #
 
-The Information Risk Management Body of Knowledge (iRMBOKTM) is a standard for the practice of information risk management. The iRMBOKTM Guide describes information risk management tasks and the knowledge required to be effective.
+The Information Risk Management Body of Knowledge (iRMBOKTM) is a standard for the practice of information risk management. 
+\index{Risk Management}
+The iRMBOKTM Guide describes information risk management tasks and the knowledge required to be effective.
 
 The primary goal of the iRMBOKTM Guide is to define the emerging profession of information risk management. It serves as a baseline that practitioners can agree upon in order to discuss the work they do and to ensure that they have the skills they need to effectively perform the role, and defines the skills and knowledge that people who work with and employee information risk managers should expect a skilled practitioner to demonstrate. It is a framework that describes the information risk management tasks that must be performed in order to understand how an organization may manage its information risks.
 
-This chapter provides an introduction to key concepts in the field of information risk management and describes the structure of the remainder of the iRMBOKTM Guide.
+This chapter provides an introduction to key concepts in the field of information risk management and describes the structure of the remainder of the iRMBOK Guide.
 
 ## What is Information Risk Management? ##
 
@@ -28,8 +30,9 @@ Parker endorses (I), whereas I shall argue for (III). What is striking about Par
 
 First, compliance often requires risk-based security. As Parker himself now admits, some laws require information security risk analysis (ISRA). In the U.S., such laws include the Federal Trade Commission Act (“FTC Act”),5 Gramm-Leach-Bliley Act (GLBA),6 the Federal Information Security Management Act of 2002 (FISMA),7 etc. Outside of the U.S., such laws include the EU Data Protection Directive8 and Japan’s Personal Information Protection Act.9 Furthermore, contractual obligations can require an organization to perform a formal risk assessment. For example, many organizations are contractually obligated to comply with the Payment Card Industry (PCI) Security Standards Council’s Data Security Standard (DSS), which in turn requires an annual risk analysis (RA).10 Along the same lines, any organizations subject to any of the U.S. state laws mandating PCI DSS compliance11 arguably have a duty to perform an RA.
 
-Second, business enablement should properly be taken into account in an effective RA, as failing to enable the business amounts to a failure to achieve business objectives, which is broadly equivalent to risk.12
-Third, new and emerging security threats are especially problematic if one eschews a risk-based approach to security. When a new threat is discovered, laws are unlikely to mandate specific security controls to deal with that threat. Moreover, due diligence is unlikely to be helpful either, since there probably will not be any de facto industry standard for mitigating that threat. For example, laptop encryption is surely part of the standard of care today, but it was not five years ago.13 Additionally, compliance is often the lowest common denominator that protects entities outside of an organization (e.g., consumers, government, payment card brands) more than the organization itself. Compliance is rarely an efficient way of allocating resources, since compliance requirements are rarely (if ever) designed with a specific organization’s nuances in mind.
+Second, business enablement should properly be taken into account in an effective RA, as failing to enable the business amounts to a failure to achieve business objectives, which is broadly equivalent to risk.
+
+Third, new and emerging security threats are especially problematic if one eschews a risk-based approach to security. When a new threat is discovered, laws are unlikely to mandate specific security controls to deal with that threat. Moreover, due diligence is unlikely to be helpful either, since there probably will not be any de facto industry standard for mitigating that threat. For example, laptop encryption is surely part of the standard of care today, but it was not five years ago. Additionally, compliance is often the lowest common denominator that protects entities outside of an organization (e.g., consumers, government, payment card brands) more than the organization itself. Compliance is rarely an efficient way of allocating resources, since compliance requirements are rarely (if ever) designed with a specific organization’s nuances in mind.
 
 Fourth, there are often multiple options that can be used to avoid negligence, achieve legal compliance, and enable the business. Organizations have limited resources to invest in information security. Sometimes the resources required just to achieve compliance, due diligence, and enablement exceed the resources that are available. Lawmakers and other organizations need a decision making method for selecting one of those options. The methods of decision theory, including risk analysis, are empirically well supported. The diligence-based method is not.
 
