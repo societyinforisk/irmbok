@@ -67,16 +67,34 @@ Suppose Microsoft announces tomorrow the existence of a previously unknown secur
 
 Second, even in those situations where historical data about the statistical frequency of a specific threat is unavailable, historical data is often available for some larger class of events for which the specific threat is a member. Every time a new vulnerability is announced in a given piece of software, by definition there will be no historical data about that vulnerability. Yet we have a large amount of statistical data about information security vulnerabilities in general. We also have a wealth of historical information about vulnerabilities affecting specific types of software. For example, the next time a new vulnerability in the Apache web server software is announced, we won’t have any statistical data regarding the frequency of exploits of that specific vulnerability, but we will have data about the frequency of past Apache vulnerabilities for which exploit code is publicly available. That latter data is relevant to determining the probability that exploit code will be made publicly available for the new vulnerability. 
 
+Abbreviation     Meaning
+--------------   ---------------------------------------------------------------
+ACC              Accuracy
+AICPCU           American Institute for Chartered Property Casualty Underwriters 
+ALARP            As Low As Reasonably Practical
+ALE              Annualized Loss Expectancy
+ARO              Annualized Rate of Occurrence
+AS/NZS           Australia Standard/New Zealand Standard
+BIA              Business Impact Analysis
+--------------   ---------------------------------------------------------------
+
+Table: Abbreviations
+
 A similar point applies to the worry about threats stemming from the acts of individuals (as opposed to “acts of nature”). While we may not have any historical data about the probability of a specific enemy committing attack Y, we do have statistical data about attacks in general, specific types of attacks, and attacks against specific organizations. To be sure, the more specific the reference class, the more confidence we will have in our probability values. Just because our reference class is not identical to the event in question, however, it does not follow that we cannot have a reasonable or even high degree of confidence in our probability values. The fact that we cannot know something with certainty (i.e., probability = 100%) does not prevent us from knowing it with a high degree of probability (i.e., probability > 50%).
 
 Parker also introduces the following related objection:
 
->In addition, when enemies fail in attacking one possible vulnerability, they often attempt attacks on other vulnerabilities to >accomplish their goals. Therefore, risks may be related in unknown complex ways so that reducing one risk may increase or decrease >other risks. This alone precludes the effective use of risk assessment methods.32
+>In addition, when enemies fail in attacking one possible vulnerability, they often attempt attacks on other vulnerabilities to >accomplish their goals. Therefore, risks may be related in unknown complex ways so that reducing one risk may increase or decrease >other risks. This alone precludes the effective use of risk assessment methods.
+
+![Loss Distribution Example](figures/ch01-001.png)
 
 Parker is certainly correct that if an initial attempt to exploit a vulnerability fails, many attackers will try other attacks in order to accomplish their goals. It does not follow, however, that this fact “alone precludes the effective use of risk assessment methods” (emphasis mine). This is an incredibly strong claim that requires a supporting argument from Parker, but such an argument is not provided in his article.
+
+$\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$ 
 
 In sum, far from disqualifying the use of RA, our uncertainty about attackers provides a strong reason for using probabilistic, risk-based methods. As Doug Hubbard writes, “We use probabilistic methods because we lack perfect data, not in spite of lacking it. If we had perfect data, probabilities would not be required.”33 Furthermore, “It is a fallacy that when a variable is highly uncertain, we need a lot of data to reduce the uncertainty. The fact is that when there is a lot of uncertainty, less data is needed to yield a large reduction in uncertainty.”
 
 #### Second Supporting Argument: Complex, Unknowable Relationships between Risks and Security Efforts ####
 
-Parker’s next argument claims that that the relationships between risks and security efforts are complex and often not completely knowable:
+Parker’s next argument claims that that the relationships between risks and security efforts are complex and often not completely knowable
+

@@ -1,2 +1,1 @@
-pandoc -S --toc --chapters --no-wrap --number-sections --latex-engine=xelatex --epub-metadata=templates/metadata.xml -o output/irmbok.html templates/title.txt \
-   en/*/*md
+pandoc -S --toc --chapters --no-wrap --number-sections --latex-engine=xelatex --epub-metadata=templates/metadata.xml -o output/irmbok.html templates/title.txt en/*/*md
