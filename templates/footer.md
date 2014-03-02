@@ -1,0 +1,1 @@
+Copyright (c) 2014 Society of Risk Analysts(tm)

@@ -1,8 +1,10 @@
 \documentclass[11pt,oneside]{scrbook}
 \usepackage{amssymb,amsmath}
 \usepackage{fancyvrb}
+\usepackage{fancyhdr}
 \usepackage{ifxetex,ifluatex}
-\usepackage{longtable} 
+\usepackage{longtable}
+\usepackage{textcomp}
 \ifxetex
   \usepackage{fontspec,xltxtra,xunicode}
   \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
@@ -62,6 +64,9 @@ stringstyle={\color{codestring}},
 tab=true,
 tabsize=2
 }
+\pagestyle{fancy}
+\rfoot{Copyright \textcopyright 2014 SIRA\texttrademark}
+
 $if(verbatim-in-note)$
 \usepackage{fancyvrb}
 $endif$
