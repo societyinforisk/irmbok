@@ -1,0 +1,1 @@
+pandoc -S -f markdown+pipe_tables+tex_math_dollars+table_captions+implicit_header_references --toc --chapters --number-sections --epub-metadata=templates/metadata.xml -o output/irmbok.epub -t epub3 --epub-cover-image=figures/cover.png templates/title.txt en/*/*md
